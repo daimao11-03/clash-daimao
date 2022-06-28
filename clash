@@ -1,0 +1,15 @@
+规则集=📹 YouTube，https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+规则集=📹 YouTube，https://raw.githubusercontent.com/bunizao/rulelist1/main/google_search.list
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group =👾 手动切换`select`.*
+custom_proxy_group =📹 YouTube`select`[]👾 手动切换`select`.*
+
+
+
+
+enable_rule_generator =true
+overwrite_original_rules =真
+
+; crash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
